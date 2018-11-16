@@ -1,0 +1,73 @@
+---
+title: "Seminar Report 2"
+author: "Emma Afferton"
+date: "November 15, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Seminar Speaker's Name, Professional Title, & Affiliationo
+
+#### Zhijian Jake Tu, Ph.D
+
+##### Department of Biochemistry, Virginia Tech
+
+##### Member of Fralin Life Institute
+
+
+#### November 12, 2018
+
+##### 12:00pm-1:00pm
+
+
+### Sex and the Control of Mosquito-Borne Inectious Diseases
+
+
+##### Overall Research Topic
+
+Overall, Dr. Tu talked about research in understanding various methods in which sex is determined in mosquitos. He gave an introduction into describing why mosquitoes are of research interest: only female mosquitoes are the ones to bite and subsequently transmit diseases such as malaria. Therefore, being able to control the amount of female mosquitos in the population and reduce their numbers would be beneficial in reducing the spread of such diseases.Current research has shown that a gene exists that is spliced in mosquitos to represent a different form of a protein, and the different forms of the protein represent the different sexes. However, further research was needed to idfentify what the "master switches" are in the mosquitoes genes to inform how sex is determined. 
+
+With this in mind, Dr. Tu described his research, which focused on describing the mechanism of sex determination in mosquitos.He followed up by talking about the potetial applications of his research and gave a brief description of the evolution of sex and sex chromosomes for mosquitos.   
+
+##### Research Question/Hypothesis Tested
+
+The bulk of Dr. Tu's presentation focused on looking at the genetic drivers behind how sex is determined in mosquitos. However, he noted that the base genetic breakdown in sex determination is across mosquito species. He identified two different potential "master switches" to drive sex determiniation: in some species, the sex chromosomes are heteromorphic, meaning there are two distinct sex chromosomes, and the male determining factor (M factor) is on the Y chromosome. In other species, characterized as homomorphic, simply have an autosome with an the MM factor on the m locus of the autosome. With these two species groups and their defined with their sex chromosomes, his research tested if these M-factors played a role in the pathway of genetic determination. The two potential male determining factors identified and tested were the Nix gene(homorphophic) and the Guy1 gene(heteromorphic).  
+
+
+##### Methods/Experimental Design 
+
+
+###### Nix Gene
+
+Dr. Tu's research team first looked at mosquitos with the homomorphic sex chromosomes to identify the male-determining factor. They identified a sepcific gene of interest, Nix, that they thought may be the "master switch" for sex determination for various reasons. Using digital drop PCR, they saw that there was exactly one copy of this gene in males and 0 copies in females. Additionally, they saw an early embyotic expression of this gene: since the "master switch" determines sex early, this gene would most likely occur early in expression. The team therefore conducted experiments to test whether this gene was in fact that master switch. 
+
+To test if Nix wa a driving factor in sex determination, the research team first knocked this gene out in males using CRISPR cas 9. When they knocked it out in males, they saw that these males developed female features. Similarly, when they found that when they added the Nix gene onto the autosome of a female mosquito, they were able to convert that female to a fertile male. This therefore suggested that Nix plays a crucial role in sex determination.
+
+
+###### Guy1 gene
+
+The team also looked specifically a the Guy1 gene, which is found on the Y chromosome in hetermorphic sex chromosomes. To test if Guy1 was the master switch, they copied the Guy1 gene from the Y chromosome onto the autosome. With these results, they found that they produced 100% males. However, the team wanted to test whether placing the gene on the chromosome converted the females to males or if it instead killed off all the female mosquitos.  They tested this by putting a marker on the X chromosomes and then running the same experiment. When they did this, they saw little signal to no from the X chromosome markers from living moqsuitos, suggesting that the females (who would have the X chromosome) that had the Guy1 gene copied to their autosome had died, suggestiong that Guy1 was fatal to females. Dr. Tu described that based on scientific literature, this makes sense: a mechanism called dosage compensation occurs, which is a method of keeping a balance between the sex chromosomes. The introduction of Guy1 on the autosome causes upregulation of genes X-chromosome, so introducing it in females causes an imbalance that contributes to eventual fatality. Dr. Tu explain that a similar phemonemon is not seen with the introduction of the Nix gene in females with homomorphic sex chromosomes because they don't specifically have an X chromosome for genes to be upregulated from. 
+
+To further confirm Guy1 as the master switch and futher dive into dosage compensation, the team looked at RNA sequencing data. As expected, they saw upregulated X level genes when Guy1 was copied to te autosome in females. They additionally  saw that the Guy1 gene is expressed early on in development, and then disapears, suggesting that it plays an intial part as the master switch in first driving sex determination. 
+
+
+##### Take Home Message/Conclusions
+
+Dr. Tu and his team identified the male determining factors for mosquito species with both homomorphic and heteromorphic sex chromosomes, and have demonstrated ways to used these factors to alter sex outcome. With this knowledges, he suggests an application for controlling to population of female mosquitos. While current techniques of pest control inlcude taking a popultion of mosquitoes, spearating them by gender, making the males sterile, and then releasing the population, this method requires a lot of intervention and constant re-releasing of the population. 
+
+Dr. Tu proposes a potential solution for controlling the mosquito population that is an applicatin of his research. He suggests encoding into a mosquito's chromosome a "casset," which includes both Guy1 sequences for cas9. He suggests that for a pair of chromosomes, the cas9 will be able to create a break in the paired chromosomes, and the broken chromosome will repair itself to mimic the chromosome with the Guy1 and the cas 9. This would ensure that if this chromosome is passed on, it contains both the Guy1 and cas9, meaning this process could be repeated as this chromosome is passed on, thus ensuring that future generations are ensured to have the Guy1 gene. Since the Guy1 gene is fatal for female, it would promote a male population. In summary, his research in identifying which genes are teh "master switches" that control sex determination in mosquitos and understanding how they work could have beneficial applicaitons in control of mosquito populations in the future.  
+
+
+##### Relevance to Research Topic
+
+While this biological of sex determination is not relevant to my research topic of characterizing the gut microbiome, one overlap is that RNA-sequencing was used in Dr. Tu's research, and RNA-sequencing was similarly used to characterized the gut microbiome in my project's dataset on the mouse microbiome. Though the research Dr. Tu conducted does not directly relate to mine, it is interesting to see how RNA-sequencing data can be used in different applications.  
+
+
+##### ???Two questions that the student would like to ask the speaker about his/her research
+
+Q1: Can this research in mosquitos be applied to other insects or animals that pose a threat or may carry diseases based on sex? 
+
+Q2: If the proposed application were to be implemented into the mosquito population, what measured would be put into place in order to monitor the mosquito population to determine if the overall population of mosquitos was in fact being reduced, and how would you be able to ensure that exinction of this species does not occur?
